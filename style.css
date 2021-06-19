@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    width: 100%;
+    height: 10vh;
+    background:#131921;
+}
+.nav-links{
+    display: flex;
+    margin:0 10% 0 50%;
+    justify-content: space-around;
+    color: rgb(41, 41, 41);
+    list-style: none;
+    padding-top: 40px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+.about-nav:hover{
+    color: #e4cc20;
+}
+.skills-nav:hover{
+    color: #e4cc20;
+}
+.resume-nav:hover{
+    color: #e4cc20;
+}
+.education-nav:hover{
+    color: #e4cc20;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+.main{
+    width:100%;
+    display: flex;
+    background: #fef2f2;
+    background:linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(elements/bcg1.png);
+    
+}
+#about {
+    width: 70%;
+    height: 90vh;
+    color: #000;
+}
+
+#skills{
+    width: 70%;
+    height: 90vh;
+    color: #000;
+    display: none;
+}
+#education{
+    width: 45%;
+    height: 60vh;
+    color: #000;
+    display: none;
+    margin: 10% 0 0 25%;
+}
+#resume{
+    width: 45%;
+    height: 60vh;
+    color: #000;
+    display: none;
+    margin: 10% 0 0 25%;
+}
+.pic{
+    width: 30%;
+    height: 90vh;
+  
+}
+.quote{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 350px;
+    height: 300px;
+
+}
+.desc{
+    
+    text-align: justify;
+    font-family: 'Benne', serif;
+    font-size: 20px;
+}
+.coma1 {
+    width: 50px;
+    position: absolute;
+    top: 185px;
+    left: 570px;
+}
+
+.coma2 {
+    width: 50px;
+    position: absolute;
+    top: 520px;
+    left: 940px;
+   
+}
+.dec{
+    color: rgb(231, 231, 10);
+    font-family: 'Benne', serif;
+}
+.dp{
+    margin-top: 100px ;
+    width: 300px;
+
+}
+h2{
+    font-size: 25px;
+    margin: 10px 0 0 40px;
+    color: #f31c5c;
+}
+h3{
+    margin-left: 65px;
+    color: #6A4952;
+}
+.skill-list{
+    list-style: none;
+    display: flex;
+
+}
+
+.skillDetails{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 350px;
+    height: 300px;
+
+}
+.python{
+    width:150px;
+    padding-top: 8px;
+}
+.c{
+    width:85px;
+    padding-top: 7px;
+}
+.html{
+    padding-left: 20px;
+    width: 80px;
+    padding-top: 7px;
+}
+.css{
+    padding-left: 20px ;
+    width: 92px;
+}
+.git{
+    padding-left: 20px ;
+    width: 90px;
+    padding-top: 9px;
+}
+h1{
+    font-size:50px ;
+ 
+}
+.skil{
+    position: absolute;
+    top: 42%;
+    left: 8%;
+    font-weight: 700;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+.k{
+    color: #e4cc20;   
+}
+.contact-list{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    
+}
+.contact{
+    width: 100%;
+    background-color: #131921  ;  
+    padding-top: 15px;
+    position: fixed;
+    bottom: 0;
+}
+.invert{
+    filter: invert(100%);
+}
+.github{
+    width: 31px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.linkedin-logo{
+    width: 32px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.gmail-logo{
+    width: 32px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.whatsapp{
+    width:30px;
+}
+.linkedin-logo:hover,.github:hover,.gmail-logo:hover{
+    transition: transform 0.4s ease-out;
+    transform: rotateZ(360deg);
+    border-radius: 0px;
+    transition: all 0.4s;
+    background: rgb(138, 138, 138);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(238,222,112,1) 46%, rgba(228,204,32,1) 100%);
+}
+.whatsapp:hover{
+    transition: transform 0.4s ease-out;
+    transform: rotateZ(360deg);
+    border-radius: 0px;
+    transition: all 0.4s;
+    background: rgb(138, 138, 138);
+    background: linear-gradient(0deg, rgba(255,255,255,0.7) 0%, rgba(238,222,112,0.7) 46%, rgba(228,204,32,0.7) 100%);
+}
+.APJ{
+    font-size: 25px;  
+}
+.edu1{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 29px;
+    
+    
+}
+.hat{
+    width: 100px;  
+}
+.sp{
+    color: #f31b5c;
+    font-weight: bolder;
+}
+.year{
+    font-weight: bolder;
+    font-family: fantasy;
+    color: #f31c5c; 
+}
+#navAbout{
+    height: 39px;
+    width: 48px;
+    border-radius: 5px 5px 0 0;
+}
+#navEdu{
+    height: 39px;
+    width: 77px;
+    border-radius: 5px 5px 0 0;
+}
+#navSkill{
+    height: 39px;
+    width: 0 60px 0 60px;
+    border-radius: 5px 5px 0 0;
+}
+#navResume{
+    height: 40px;
+    width: 0 60px 0 60px;
+    border-radius: 5px 5px 0 0;
+}
+.mobile:hover,.email:hover{
+    color:#e4cc20
+    
+}
