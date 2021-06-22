@@ -48,8 +48,9 @@ a{
 
 #skills{
     width: 70%;
-    height: 90vh;
     color: #000;
+    margin-top: 105px;
+    padding-left: 65px;
     display: none;
 }
 #education{
@@ -63,8 +64,8 @@ a{
     width: 45%;
     height: 60vh;
     color: #000;
-    display: none;
     margin: 10% 0 0 25%;
+    display: none;
 }
 .pic{
     width: 30%;
@@ -119,24 +120,26 @@ h3{
 }
 .skill-list{
     list-style: none;
-    display: flex;
+    
 
 }
 
 .skillDetails{
     position: absolute;
-    top: 40%;
-    left: 20%;
+    top: 15%;
+    left: 27%;
     width: 350px;
     height: 300px;
 
 }
 .python{
-    width:150px;
+    width:65px;
     padding-top: 8px;
-}
+    
+  }
+
 .c{
-    width:85px;
+    width:3px;
     padding-top: 7px;
 }
 .html{
@@ -160,7 +163,7 @@ h1{
 .skil{
     position: absolute;
     top: 42%;
-    left: 8%;
+    left: 15%;
     font-weight: 700;
     font-family: 'Big Shoulders Stencil Display', cursive;
 }
@@ -260,7 +263,7 @@ h1{
     border-radius: 5px 5px 0 0;
 }
 #navResume{
-    height: 40px;
+    height: 39px;
     width: 0 60px 0 60px;
     border-radius: 5px 5px 0 0;
 }
@@ -268,3 +271,158 @@ h1{
     color:#e4cc20
     
 }
+.container {
+    width: 100%;
+    background-color: #e4cc20;
+
+}
+  
+  .skilled {
+    text-align: right;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: white;
+    
+  }
+  
+  .python1 {
+    width: 90%;
+    background-color: #131921;
+    
+
+}
+  .c1 {width: 80%; background-color: #131921;}
+  .html1 {width: 65%; background-color: #131921;}
+  .css1 {width: 60%; background-color: #131921;}
+  .git1{width: 60%; background-color: #131921;}
+  * {box-sizing: border-box}
+
+  .download{
+    background-color: #ffffff;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #353534;
+    border-style:solid;    
+    color: rgb(0, 0, 0);
+    margin:400px 0 0 50px;
+  }
+
+  .download-button{      
+    font-size: 20px;
+
+  }
+  .icon-download{
+      width: 22px;
+      margin-right: 5px;      
+  }
+  .download:hover{      
+    background-color: #ffffff;   
+    color: rgb(15, 15, 15);
+    border-color: #1b1b1b;
+  }
+  .scroll{
+      position: absolute;
+      top: 120px;
+      left: 120px;
+      width: 800px;
+      height:60%;
+  }
+  embed{
+      width: 100%;
+      height: 100%;
+  }
+
+  .wrapper{
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+    margin:0 auto;
+}
+.skill {
+    margin-bottom: 35px;
+    position: relative;
+  overflow-x:hidden;
+  
+}
+.skill > p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1716;
+    margin: 0;
+}
+.skill:before{
+    width: 100%;
+    height: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0;
+}
+.skill-bar {
+    width: 100%;
+    height: 5px;
+    background:#f31c5c;
+    display: block;
+    position: relative;
+}
+
+/* SKILL 1 */
+.skill1{
+    width: 75%;
+  
+}
+.skill-bar span{
+    position: absolute;
+    border-top: 5px solid #f4392f;
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+}
+.skill-bar {
+    position: relative;
+  
+}
+
+.skill1 .skill-count1 {
+    right: 0;
+}
+/* SKILL 2 */
+.skill2{
+    width: 65%;
+}
+
+.skill2 .skill-count2 {
+    right: 0;
+}
+/* SKILL 3 */
+.skill3{
+    width: 75%;
+}
+.skill3 .skill-count3 {
+    right: 0;
+}
+
+/* SKILL 4 */
+.skill4{
+    width: 65%
+}
+
+.skill4 .skill-count4 {
+    right: 0;
+}
+
+/* SKILL 5 */
+.skill5{
+    width: 80%;
+}
+
+.skill5 .skill-count5 {
+    right: 0;
+}
+
+/* GITHUB SOURCE STYLE  */

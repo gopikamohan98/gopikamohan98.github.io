@@ -1,3 +1,5 @@
+
+
 function aboutClick(){
     console.log("about click 1st line")
     var a = document.getElementById("about");
